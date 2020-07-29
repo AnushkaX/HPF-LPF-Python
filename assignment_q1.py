@@ -5,7 +5,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 # step 1
-img = cv2.imread("D:\\Achi\\Uni Notes\\3rd Year\\CS314\\hist\\images\\fourier\\assignment\\97.jpg", 0)
+img = cv2.imread("", 0)
 
 # step 2
 dft = cv2.dft(np.float32(img), flags=cv2.DFT_COMPLEX_OUTPUT)
